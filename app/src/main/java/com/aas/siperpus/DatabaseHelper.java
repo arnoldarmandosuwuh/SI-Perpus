@@ -34,7 +34,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         // Membuat table jika belum ada
         db.execSQL("CREATE TABLE IF NOT EXISTS " + TABLE_NAME +
                 "(id integer primary key autoincrement, " + JUDUL + " text, " +
-                PENGARANG + " text, " + TAHUN + " text, " + GENRE + "text)");
+                PENGARANG + " text, " + TAHUN + " text, " + GENRE + " text)");
 
     }
 

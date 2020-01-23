@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         tvData = findViewById(R.id.tv_hasil);
         btnInsert = findViewById(R.id.btn_insert);
 
-        // Memanggil class db helper
+        // Memanggil object db helper
         dbHelper = new DatabaseHelper(this);
 
         // Membuat aksi onClick pada button insert untuk membuka activity insert
