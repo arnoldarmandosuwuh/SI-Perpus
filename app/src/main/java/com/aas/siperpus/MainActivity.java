@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         tvData = findViewById(R.id.tv_hasil);
         btnInsert = findViewById(R.id.btn_insert);
 
+        // Membuat aksi onClick pada button insert untuk membuka activity insert
         btnInsert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

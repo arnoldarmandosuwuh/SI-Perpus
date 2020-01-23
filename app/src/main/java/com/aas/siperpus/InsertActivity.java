@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 
 public class InsertActivity extends AppCompatActivity {
 
-    //Deklarasi
+    // Deklarasi
     private EditText edtJudul, edtPengarang, edtTahun;
     private RadioButton rbHorror, rbFantasy, rbRomance;
     private Button btnSubmit;
